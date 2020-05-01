@@ -1,8 +1,7 @@
 //Below is the scrabble function that was created
-
 function scrabble(str1, str2) {
   
-  //creating a instance of an array with code 256
+  //creating a instance of an array with code 256 and a variable i assigned to 0
     var array = new Array(256);
     var i = 0;
     
@@ -25,7 +24,6 @@ function scrabble(str1, str2) {
       }
     }
 
-    //else returns true
-    
+    //else it returns true
     return true;
 }
