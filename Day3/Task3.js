@@ -1,4 +1,4 @@
-//the function is created below
+//The function is created below
 function everythingIsPackaging(insertTheNumber, theWidth) {
 
     //convert the second argument to string and then minus the length from the first argument
@@ -8,7 +8,7 @@ function everythingIsPackaging(insertTheNumber, theWidth) {
     //check if the number is greater than zero i.e a positive number
     if (insertTheNumber > 0) {
 
-        //Return a new array with the first argument and test result of the second argument
+        //Return a new array using Array.prototype with the first argument and test result of the second argument
         return new Array(insertTheNumber + (/\./.test(theWidth) ? 2 : 1)).join('0') + theWidth;
     }
 
