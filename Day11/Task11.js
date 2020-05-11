@@ -38,7 +38,7 @@ for(let i = 0; i <= combinations; i++)
     +"8"+possibleOperands[paddedValue[7]]
     +"9";
 
-	if(eval(res) === 100)
+	if(eval(res) === targetNumber)
 	{
         results.push(res);
     }
